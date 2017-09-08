@@ -1,0 +1,17 @@
+.name_heading{
+  margin-left:5%;
+  font-weight:bold;
+}
+.name{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.columns{
+   background: #f4f4f4 !important;
+}
+.heading, .columns{
+    border: 1px solid #000;
+    background: #b4b4b4;
+    width: 30%;
+    margin-left: 5%;
+}

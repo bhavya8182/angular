@@ -6,8 +6,9 @@ import { GithubService } from './github/shared/github.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
-
+import { JsonService } from './jsonData/json.service';
 import { AboutComponent } from './about/about.component';
+import { JsonComponent } from './jsonData/jsonData.component';
 import { HomeComponent } from './home/home.component';
 import { RepoBrowserComponent } from './github/repo-browser/repo-browser.component';
 import { RepoListComponent } from './github/repo-list/repo-list.component';
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
     RepoListComponent,
     RepoDetailComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    JsonComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { ContactComponent } from './contact/contact.component';
     RouterModule.forRoot(rootRouterConfig, { useHash: true })
   ],
   providers: [
-    GithubService
+    GithubService,
+    JsonService
   ],
   bootstrap: [ AppComponent ]
 })

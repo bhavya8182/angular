@@ -2,25 +2,29 @@
   Angular 2 Seed
 </h3>
 <nav>
-	<a [routerLink]="['/']">
+  <a [routerLink]="['/']">
     Home
   </a>
   |
-	<a [routerLink]="['/about']">
+  <a [routerLink]="['/about']">
     About
   </a>
   |
-	<a [routerLink]="['/github', 'angular']">
+  <a [routerLink]="['/github', 'angular']">
     Github Repos
   </a>
   |
-	<a [routerLink]="['/contact']">
+  <a [routerLink]="['/contact']">
     Contact Us
+  </a>
+  |
+  <a [routerLink]="['/jsonData']">
+    Json Data
   </a>
 </nav>
 
 <main>
-	<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </main>
 
 
