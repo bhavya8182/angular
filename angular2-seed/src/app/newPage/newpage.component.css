@@ -1,0 +1,23 @@
+.unique_names{
+  display:block;
+}
+.name_heading{
+  margin-left:5%;
+  margin-right:5%;
+}
+.amount{
+  margin-left:5%;
+  margin-right: 8%;
+  display:-webkit-inline-box;
+}
+.names, .categories{
+  display:inline-grid;
+}
+
+.matrix{
+  width: 40%;
+  display: inline-block;
+}
+.values{
+  width: 72%;
+}

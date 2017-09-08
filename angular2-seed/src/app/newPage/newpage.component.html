@@ -1,0 +1,13 @@
+<h3>new Component</h3>
+<p>This is the new component!</p>
+<div class="matrix">
+<div class="names">
+  <span class="name_heading" >Name</span>
+  <div><span class="unique_names" *ngFor="let name of unique_names">{{name}}</span></div>
+</div>
+<div class="categories">
+  <div><span class="name_heading" *ngFor="let catg of unique_categories">{{catg}}</span></div>
+  <div class="values"><span class="amount" *ngFor="let amt of amount" >{{amt.amount}}</span></div>
+</div>
+</div>
+
