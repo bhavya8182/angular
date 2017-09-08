@@ -22,4 +22,7 @@ export class JsonComponent implements OnInit{
          });
      });
    }
+   sort(){
+       this.Details.reverse();
+     }
 }

@@ -1,9 +1,9 @@
 <h3>JSON Component</h3>
 <p>This is the JSON component!</p>
 <div class="heading">
-  <span class="name_heading">Name</span>
-  <span class="name_heading">category</span>
-  <span class="name_heading">Amount</span>
+  <span class="name_heading" (click)="sort()">Name</span>
+  <span class="name_heading" (click)="sort()">category</span>
+  <span class="name_heading" (click)="sort()">Amount</span>
 </div>
 <div *ngFor="let detail of details_keys" class="columns">
      <span class="name">{{this.Details[detail].name}}</span>
